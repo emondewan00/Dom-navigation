@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display:flex;
+            flex-direction: column;
+            background-color: aquamarine;
+            align-items: center;
+        }
+        #container>h1{
+            background-color: lightblue;
+        }
+        #container-child{
+            display: flex;
+            background-color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>conatiner h1</h1>
+        <div id="container-child">
+            <h1>hallo chaild</h1>
+            <div>a</div>
+            <div id="hallo-b">
+                <div>hallo</div>
+                <div>hallo</div>
+            </div>
+            <div>c</div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
